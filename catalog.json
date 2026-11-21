@@ -1,0 +1,61 @@
+{
+  "schema": 1,
+  "name": "Palveni Plugins",
+  "generatedAt": "2026-11-21T00:00:00Z",
+  "plugins": [
+    {
+      "id": "com.palveni.skin.native",
+      "skinId": "native",
+      "name": "Native",
+      "description": "Neutral greys, navy accents and a labelled sidebar",
+      "releases": [
+        {
+          "version": "1.0.1",
+          "url": "https://raw.githubusercontent.com/palveni-labs/plugins/9cdfb5a2ecf4f725ae6024b588cf0af0f183d570/packages/skin-native-1.0.1.tar",
+          "sha256": "19cd865d72bf48eab07b7727af5908452a325eb317a8a95aed54cced3e66c6ba",
+          "size": 282112,
+          "api": "^0.1",
+          "runtime": "none",
+          "permissions": {},
+          "publishedAt": "2026-11-21T00:00:00Z"
+        }
+      ]
+    },
+    {
+      "id": "com.palveni.skin.ink",
+      "skinId": "ink",
+      "name": "Paper & Ink",
+      "description": "Paper ground and serif headings; vermilion marks only what waits for your confirmation",
+      "releases": [
+        {
+          "version": "1.0.1",
+          "url": "https://raw.githubusercontent.com/palveni-labs/plugins/9cdfb5a2ecf4f725ae6024b588cf0af0f183d570/packages/skin-ink-1.0.1.tar",
+          "sha256": "ac941bcd2bcfaa01e8dc6abfbd435dbbc0de7e713a847854afd754e1d489638c",
+          "size": 3664384,
+          "api": "^0.1",
+          "runtime": "none",
+          "permissions": {},
+          "publishedAt": "2026-11-21T00:00:00Z"
+        }
+      ]
+    },
+    {
+      "id": "com.palveni.skin.gear",
+      "skinId": "gear",
+      "name": "Equipment",
+      "description": "Matte graphite and aluminium; amber only means something is happening, and the dividers are the progress bars",
+      "releases": [
+        {
+          "version": "1.0.1",
+          "url": "https://raw.githubusercontent.com/palveni-labs/plugins/9cdfb5a2ecf4f725ae6024b588cf0af0f183d570/packages/skin-gear-1.0.1.tar",
+          "sha256": "577a4e8c5dbd2b13c8c753057d20b89f5bdb021fb5190e1dc6717e7672170878",
+          "size": 124928,
+          "api": "^0.1",
+          "runtime": "none",
+          "permissions": {},
+          "publishedAt": "2026-11-21T00:00:00Z"
+        }
+      ]
+    }
+  ]
+}

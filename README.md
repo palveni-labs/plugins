@@ -10,7 +10,11 @@ This repository distributes official skins for Palveni Server and welcomes commu
 
 ## Install a skin
 
-Open **Apps → Appearance** in the dashboard to install an official skin. The server verifies its SHA-256 digest. You can also download a tar archive from [Releases](https://github.com/palveni-labs/plugins/releases) and use **Upload skin** for a community package.
+Open **Apps → Plugin store** to search and install an official skin, then select it in **Appearance**. Earlier dashboards also support installation under **Apps → Appearance**. The server verifies its SHA-256 digest. You can also download a tar archive from [Releases](https://github.com/palveni-labs/plugins/releases) and use **Upload skin** for a community package.
+
+## Package catalogue
+
+[The catalogue](catalog.json) lists available packages, names, runtime, requested permissions, byte sizes, SHA-256 digests and immutable download URLs. Each server release ships a reviewed snapshot for offline discovery. Verify the index and packaged sources in a full checkout with `python3 scripts/check_catalog.py` (Python 3.11 or newer).
 
 ## Submit a plugin
 
