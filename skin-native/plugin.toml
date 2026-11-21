@@ -1,0 +1,15 @@
+[plugin]
+id = "com.palveni.skin.native"
+name = "Native"
+version = "1.0.1"
+description = "Neutral greys, navy accents and a labelled sidebar"
+authors = ["Palveni"]
+license = "MPL-2.0"
+runtime = "none"                   # data only: no executable part, no permissions
+
+[compat]
+api = "^0.1"
+
+[provides]
+skin = "skin.json"
+preview = "preview.png"

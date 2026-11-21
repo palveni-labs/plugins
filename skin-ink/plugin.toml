@@ -1,0 +1,15 @@
+[plugin]
+id = "com.palveni.skin.ink"
+name = "Paper & Ink"
+version = "1.0.1"
+description = "Paper ground and serif headings; vermilion marks only what waits for your confirmation"
+authors = ["Palveni"]
+license = "MPL-2.0"
+runtime = "none"                   # data only: no executable part, no permissions
+
+[compat]
+api = "^0.1"
+
+[provides]
+skin = "skin.json"
+preview = "preview.png"

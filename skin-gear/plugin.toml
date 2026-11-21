@@ -1,0 +1,15 @@
+[plugin]
+id = "com.palveni.skin.gear"
+name = "Equipment"
+version = "1.0.1"
+description = "Matte graphite and aluminium; amber only means something is happening, and the dividers are the progress bars"
+authors = ["Palveni"]
+license = "MPL-2.0"
+runtime = "none"                   # data only: no executable part, no permissions
+
+[compat]
+api = "^0.1"
+
+[provides]
+skin = "skin.json"
+preview = "preview.png"
